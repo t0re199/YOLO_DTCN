@@ -1,8 +1,8 @@
 # README #
 
-Object Detection in Python using **Yolo Tiny v3** Pytorch implementation.   
-   
-In this project **OpenCV** is being used for annotating output images.
+Object Detection in Python using **Yolo Tiny v3** Pytorch implementation.
+      
+The adopted Yolo architecture can be found under **src/yolo** or [here](https://pjreddie.com/darknet/yolo/)   
 
 ### Most Relevant APIs ###
 
