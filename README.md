@@ -4,7 +4,6 @@ Object Detection in Python using **Yolo Tiny v3** Pytorch implementation.
       
 The adopted Yolo architecture can be found under **src/yolo** or [here](https://pjreddie.com/darknet/yolo/)   
 
-### Most Relevant APIs ###
 
 ### How to Setup Yolo ###
 
