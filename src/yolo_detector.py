@@ -107,18 +107,10 @@ if __name__ == '__main__':
 
     user_param["image"] = options.image
 
-    if options.confidence is None:
-        sys.stderr.write("Invalid Confidences\n")
-        exit(0x2)
-
     try:
         user_param["confidence"] = float(options.confidence)
     except ValueError:
         sys.stderr.write("Invalid Confidences\n")
-        exit(0x2)
-
-    if options.overlap is None:
-        sys.stderr.write("Invalid Overlap\n")
         exit(0x2)
 
     try:
